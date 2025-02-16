@@ -47,8 +47,8 @@ const enableBoxes = () =>{
         box.innerText= "";
         }
 }
-let winSound = new Audio("sounds/win.mp3");
-let drawSound = new Audio("sounds/draw.mp3");
+// let winSound = new Audio("sounds/win.mp3");
+// let drawSound = new Audio("sounds/draw.mp3");
 
 const showWinner = (winner) => {
     msg.innerText = `Congratulation, winner is ${winner}`;
